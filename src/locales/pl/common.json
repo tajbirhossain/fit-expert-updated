@@ -1,0 +1,235 @@
+{
+  "header": {
+    "menu": [
+      {
+        "label": "Home",
+        "target": "hero"
+      },
+      {
+        "label": "Dla kogo",
+        "target": "mainFunction"
+      },
+      {
+        "label": "Opinie",
+        "target": "opinions"
+      },
+      {
+        "label": "FAQ",
+        "target": "faq"
+      },
+      {
+        "label": "Kontakt",
+        "target": "joinTester"
+      }
+    ],
+    "cta": "Zostań testerem"
+  },
+  "hero": {
+    "betaSignUp": "Trwają zapisy do bety - miejsce ograniczone",
+    "title": "PROSTE rozwiązania dla <trainer>trenerów</trainer> ORAZ <facilities>obiektów</facilities> sportowych",
+    "description": "Twoja FIT wizytówka online, zarządzanie kalendarzem dostępności, kontrola nad Twoimi podopiecznymi i wiele więcej.",
+    "joinTesters": "Dołącz do Testerów",
+    "seeHowItWorks": "Zobacz jak to działa"
+  },
+  "instruction": {
+    "subtitle": "Masz 2 minuty?",
+    "title": "Zobacz jak to <highlight>działa</highlight>"
+  },
+  "mainFunction": {
+    "title": "Główne funkcje",
+    "subtitle": "Oszczędzamy <highlight>Twój czas <brTag /></highlight> i <highlight>pieniądze</highlight> prostotą rozwiązań jakie oferujemy",
+    "buttonText": "Dołącz do testerów",
+    "card1": {
+      "title": "Kalendarz Twoich usług",
+      "subtitle": "Twórz wygodnie i szybko swoje sloty treningowe – oddaj je w ręce swoich podopiecznych!",
+      "description": "Prosty i szybki system kalendarza oparty o Twoje sloty, rodzaje treningów oraz ceny.",
+      "list": [
+        "Treningi personalne i grupowe",
+        "Integracja z pakietami treningowymi",
+        "Powielanie slotów treningowych",
+        "Zabezpieczenie przed odwołanymi spotkaniami",
+        "Określanie lokalizacji usług"
+      ]
+    },
+    "card2": {
+      "title": "Lista klientów",
+      "subtitle": "Prosty system zarządzania swoimi klientami, który możesz wykorzystać jak chcesz.",
+      "description": "Masz pełną kontrole nad swoimi podopiecznymi w prostej czytelnej formie. Pożegnaj się z Excelem.",
+      "list": [
+        "Wszystkie dane w jednym miejscu",
+        "Przejrzysty spis wszystkich rezerwacji",
+        "Manualne przydzielanie pakietów & treningów"
+      ]
+    },
+    "card3": {
+      "title": "Spersonalizowana wizytówka",
+      "subtitle": "Skonfiguruj swoją wizytówkę którą zobaczą Twoi klienci - nie potrzebujesz już strony www.",
+      "description": "Spersonalizuj swoją wizytówkę jak tylko chcesz.",
+      "list": [
+        "Personalizacja kolorów i bannerów",
+        "Linki do Twoich miejsc w sieci i nie tylko",
+        "Galeria zdjęć i video",
+        "Przejrzysty cennik i dostęp do kalendarza",
+        "Synchronizacja z Linktree"
+      ]
+    },
+    "card4": {
+      "title": "Dla Twoich klientów",
+      "subtitle": "Aplikacja dla Twoich klientów to wygoda dla nich i dla Ciebie.",
+      "description": "Twoi klienci mają kontrole nad terminami swoich w tym opłacania pakietów",
+      "list": [
+        "Szybka i wygodna rezerwacja terminów",
+        "Zarządzanie umówionymi treningami",
+        "Zakup pakietów off-line & on-line",
+        "Lista ulubionych trenerów"
+      ]
+    },
+    "card5": {
+      "title": "Prosty system płatności",
+      "subtitle": "Rozliczaj się z klientami tak jak lubisz. Prywatnie lub on-line.",
+      "description": "Trzymaj rekę na pulsie i kontroluj płatności klientów",
+      "list": [
+        "Integracja ze Stripe",
+        "Wysyłanie linku z płatnością do klienta",
+        "Rozliczanie klientów gotówkowych",
+        "Monitorowanie płatności"
+      ]
+    }
+  },
+  "additionalFeature": {
+    "title": "Dodatkowe ficzery",
+    "subtitle": "Wszystko co potrzebujesz <brTag /> w <highlight>jednym miejscu</highlight>",
+    "item1": {
+      "title": "Prosty system płatności <brTag /> manualnych + online",
+      "description": "Rozliczaj się z klientami tak jak lubisz. Prywatnie lub on-line dzięki zabezpieczonym płatnością STRIPE."
+    },
+    "item2": {
+      "title": "Tworzenie <brTag /> pakietów",
+      "description": "Twórz pakiety takie jak chcesz i ile chcesz."
+    },
+    "item3": {
+      "title": "Własna <brTag /> wizytówka",
+      "description": "Zdjęcia, linki, bio, video. Co tylko potrzebujesz i to w Twoich kolorach."
+    },
+    "item4": {
+      "title": "Zarządzaj dostępnością innych pracowników.",
+      "description": "Chcesz dodać zastępstwo za swój trening? Żaden problem, możesz dodać dodatkowych trenerów."
+    },
+    "item5": {
+      "title": "System powiadomień <brTag /> SMS",
+      "description": "Poinformuj klientów o nadchodzących treningach i odwołaniach"
+    },
+    "item6": {
+      "title": "Zarządzanie <brTag /> klientami",
+      "description": "Monitoruj ilość treningów, pakiety w jednym miejscu"
+    },
+    "buttonText": "Dołącz do testerów"
+  },
+  "solution": {
+    "title": "Dla kogo to rozwiązanie?",
+    "subtitle": "Wybierz <highlight>kim jesteś</highlight> <brTag /> aby zobaczyć proces",
+    "button1": "Trener personalny",
+    "button2": "Obiekt sportowy",
+    "group1": [
+      {
+        "idx": 1,
+        "title": "Tworzysz konto",
+        "description": "Szybka, prosta konfiguracja profilu i wizytówki"
+      },
+      {
+        "idx": 2,
+        "title": "Ustawiasz sloty",
+        "description": "Konfigurujesz swój kalendarz dostępności i ceny"
+      },
+      {
+        "idx": 3,
+        "title": "Social media",
+        "description": "Synchronizujesz kalendarz ze swoimi kanałami social media"
+      },
+      {
+        "idx": 4,
+        "title": "Zacznij zarabiać",
+        "description": "Twoi klienci w prosty sposób rezerwują wizyty"
+      }
+    ],
+    "group2": [
+      {
+        "idx": 1,
+        "title": "Rejestracja obiektu",
+        "description": "Łatwa konfiguracja profilu i udogodnień obiektu"
+      },
+      {
+        "idx": 2,
+        "title": "Zarządzanie przestrzenią",
+        "description": "Definiujesz dostępne pomieszczenia, boiska i sprzęt"
+      },
+      {
+        "idx": 3,
+        "title": "Harmonogram i płatności",
+        "description": "Ustawiasz godziny otwarcia i opcje płatności online"
+      },
+      {
+        "idx": 4,
+        "title": "Automatyzacja biznesu",
+        "description": "Mniej czasu na administrację, więcej na rozwój"
+      }
+    ]
+  },
+  "businessCard": {
+    "title": "Wizytówka Twojej marki",
+    "subtitle": "Personalizowana <highlight>wizytówka<brTag /></highlight> Twojej <highlight>Siłowni</highlight> lub <highlight>marki osobistej</highlight>",
+    "description": "Nie potrzebujesz juz strony internetowej do prezentowania swoich usług. W fit.expert dostajesz z wizytówkę za darmo z Twoim własnym adresem.",
+    "buttonText": "Dołącz do testerów"
+  },
+  "opinions": {
+    "title": "Opinie Testerów",
+    "subtitle": "Zobacz co <highlight>mówią <brTag /> nasi</highlight> testerzy",
+    "slide1": {
+      "review": "Dzięki tej platformie nie musze juz więcej używać nudnego Excela do zarządzania moimi klientami. Wszystko mam pod kontrolą a moi klienci sami umawiają wizyty. Zaoszczędziłam mnóstwo czasu!"
+    },
+    "slide2": {
+      "review": "Fit.Expert odmieniło sposób, w jaki zarządzam swoją pracą! Zamiast tracić czas na wpisywanie danych w Excelu, teraz wszystko mam w jednym, wygodnym miejscu. Klienci samodzielnie rezerwują treningi, a ja mogę skupić się na tym, co ważne."
+    }
+  },
+  "faq": {
+    "title": "FAQ",
+    "subtitle": "Wciąż masz <brTag /> jakieś <highlight>pytania?</highlight>",
+    "description": "Znajdź jasne odpowiedzi na podstawowe pytania i nie czekaj za długo tylko dołącz do naszych testerów i przekonaj się jakie to wszystko proste!",
+    "sliderContent": [
+      {
+        "title": "Czy fit.expert jest za darmo?",
+        "description": "Tak! Aktualnie wszyscy nasi Testerzy mają dostęp do wszystkich funkcji beta aplikacji za darmo."
+      },
+      {
+        "title": "Czy muszę korzystać z płatności on-line?",
+        "description": "Nie, nie musisz. Nasz system daje Ci pełną elastyczność - możesz przyjmować płatności gotówką, przelewem lub korzystać z naszej integracji z płatnościami online, jeśli chcesz ułatwić sobie zarządzanie finansami."
+      },
+      {
+        "title": "Moi klienci mogą korzystać z mojego profilu i rezerwować treningi?",
+        "description": "Tak, jak najbardziej. Twój profil z dostępnością będzie widoczny po kliknięciu w link, który możesz udostępnić w swoich social media (np. Instagram, Facebook, Tiktok) albo przesłać bezpośrednio do klienta. Klient nie musi się rejestrować - wystarczy kliknąć i zarezerwować wolny termin."
+      },
+      {
+        "title": "Jak wygląda proces rezerwacji dla klienta?",
+        "description": "Klient klika w link do Twojego kalendarza, wybiera pasujący termin i potwierdza rezerwację. Ty otrzymujesz powiadomienie i możesz zarządzać wszystkimi terminami z jednego miejsca."
+      },
+      {
+        "title": "Czy muszę mieć własną stronę internetową?",
+        "description": "Nie. Twój profil w naszej aplikacji działa jak mini-strona - możesz podzielić się linkiem, a klienci zobaczą Twój grafik, dane kontaktowe i ofertę. To idealne rozwiązanie, jeśli jeszcze nie masz własnej strony."
+      },
+      {
+        "title": "Czy mogę ustawić własne godziny pracy i dni wolne?",
+        "description": "Tak. Masz pełną kontrolę nad swoim kalendarzem. Możesz ustawić dostępność godzinową, dni wolne, a także zablokować terminy na urlop czy inne zobowiązania."
+      }
+    ]
+  },
+  "joinTester": {
+    "title": "Dołącz do naszych testerów <highlight>za darmo</highlight>",
+    "description": "Klikając na przycisk <highlight><quote />Dołącz do Testerów<quote /></highlight> dołączysz do grona osób mających pełny dostęp do naszej aplikacji <highlight>całkowicie za darmo.</highlight> Dodatkowo będziesz w stałym kontakcie z naszą ekipą mając realny wpływ na rozwój aplikacji.",
+    "buttonText": "Dołącz do testerów"
+  },
+  "footer": {
+    "buttonText": "Dołącz do testerów",
+    "copyright": "© 2025 Fit.Expert. Wszystkie prawa zastrzeżone.",
+    "link": "Polityka Prywatności"
+  }
+}

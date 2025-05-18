@@ -1,0 +1,239 @@
+{
+  "header": {
+    "menu": [
+      {
+        "label": "Home",
+        "target": "hero"
+      },
+      {
+        "label": "For whom",
+        "target": "mainFunction"
+      },
+      {
+        "label": "Opinions",
+        "target": "opinions"
+      },
+      {
+        "label": "FAQ",
+        "target": "faq"
+      },
+      {
+        "label": "Contact",
+        "target": "joinTester"
+      }
+    ],
+    "cta": "Become a tester"
+  },
+  "hero": {
+    "betaSignUp": "Beta sign-ups are ongoing - limited spots available",
+    "title": "SIMPLE solutions for <trainer>trainers</trainer> AND <facilities>sports facilities</facilities>",
+    "description": "Your FIT online business card, availability calendar management, control over your clients, and much more.",
+    "joinTesters": "Join the Testers",
+    "seeHowItWorks": "See how it works"
+  },
+  "instruction": {
+    "subtitle": "Got 2 minutes?",
+    "title": "See how it <highlight>works</highlight>"
+  },
+  "mainFunction": {
+    "title": "Main Functions",
+    "subtitle": "We save <highlight>your time <brTag /></highlight> and <highlight>money</highlight> with the simplicity of the solutions we offer",
+    "buttonText": "Join the testers",
+    "card1": {
+      "title": "Your Service Calendar",
+      "subtitle": "Easily and quickly create your training slots – put them in the hands of your clients!",
+      "description": "A simple and fast calendar system based on your slots, types of training, and prices.",
+      "list": [
+        "Personal and group trainings",
+        "Integration with training packages",
+        "Duplication of training slots",
+        "Protection against canceled appointments",
+        "Defining service locations"
+      ]
+    },
+    "card2": {
+      "title": "Client List",
+      "subtitle": "A simple client management system that you can use however you like.",
+      "description": "You have full control over your clients in a clear and easy-to-use format. Say goodbye to Excel.",
+      "list": [
+        "All data in one place",
+        "Clear overview of all bookings",
+        "Manual assignment of packages & training sessions"
+      ]
+    },
+    "card3": {
+      "title": "Personalized Business Card",
+      "subtitle": "Set up a digital card your clients will see — no need for a website anymore.",
+      "description": "Customize your business card exactly the way you want.",
+      "list": [
+        "Color and banner customization",
+        "Links to your online platforms and more",
+        "Photo and video gallery",
+        "Clear pricing and calendar access",
+        "Linktree synchronization"
+      ]
+    },
+    "card4": {
+      "title": "For Your Clients",
+      "subtitle": "An app for your clients means convenience for both them and you.",
+      "description": "Your clients have control over their appointments, including payment for packages.",
+      "list": [
+        "Quick and easy appointment booking",
+        "Manage scheduled training sessions",
+        "Purchase offline & online packages",
+        "Favorite trainers list"
+      ]
+    },
+    "card5": {
+      "title": "Simple Payment System",
+      "subtitle": "Get paid your way — in person or online.",
+      "description": "Stay on top of things and keep client payments under control.",
+      "list": [
+        "Stripe integration",
+        "Send payment links to clients",
+        "Handle cash payments",
+        "Track and monitor payments"
+      ]
+    }
+  },
+  "additionalFeature": {
+    "title": "Additional Features",
+    "subtitle": "Everything you need <brTag /> in <highlight>one place</highlight>",
+    "item1": {
+      "title": "Simple Payment System <brTag /> Manual + Online",
+      "description": "Get paid your way — in person or online, thanks to secure STRIPE payments."
+    },
+    "item2": {
+      "title": "Create <brTag /> Custom Packages",
+      "description": "Create as many packages as you want, however you like."
+    },
+    "item3": {
+      "title": "Your Own <brTag /> Business Card",
+      "description": "Photos, links, bio, videos — everything you need, in your brand colors."
+    },
+    "item4": {
+      "title": "Manage Availability of Other Staff",
+      "description": "Need a substitute for a session? No problem — easily add other trainers."
+    },
+    "item5": {
+      "title": "SMS Notification <brTag /> System",
+      "description": "Notify clients about upcoming sessions and cancellations."
+    },
+    "item6": {
+      "title": "Client <brTag /> Management",
+      "description": "Track sessions and packages — all in one place."
+    },
+    "buttonText": "Join the testers"
+  },
+  "solution": {
+    "title": "Who Is This For?",
+    "subtitle": "Choose <highlight>who you are</highlight> <brTag /> to see the process",
+    "button1": "Personal Trainer",
+    "button2": "Sports Facility",
+    "group1": [
+      {
+        "idx": 1,
+        "title": "Create Your Account",
+        "description": "Quick and easy setup of your profile and business card"
+      },
+      {
+        "idx": 2,
+        "title": "Set Your Time Slots",
+        "description": "Configure your availability calendar and pricing"
+      },
+      {
+        "idx": 3,
+        "title": "Social Media Integration",
+        "description": "Sync your calendar with your social media channels"
+      },
+      {
+        "idx": 4,
+        "title": "Start Earning",
+        "description": "Clients can easily book their sessions with you"
+      }
+    ],
+    "group2": [
+      {
+        "idx": 1,
+        "title": "Facility Registration",
+        "description": "Simple setup of your facility profile and amenities"
+      },
+      {
+        "idx": 2,
+        "title": "Space Management",
+        "description": "Define available rooms, fields, and equipment"
+      },
+      {
+        "idx": 3,
+        "title": "Scheduling & Payments",
+        "description": "Set business hours and online payment options"
+      },
+      {
+        "idx": 4,
+        "title": "Business Automation",
+        "description": "Less time on admin, more time for growth"
+      }
+    ]
+  },
+  "businessCard": {
+    "title": "Your Brand's Business Card",
+    "subtitle": "A personalized <highlight>business card<brTag /></highlight> for your <highlight>gym</highlight> or <highlight>personal brand</highlight>",
+    "description": "You no longer need a website to showcase your services. With fit.expert, you get a free business card with your own custom link.",
+    "buttonText": "Join the testers"
+  },
+  "opinions": {
+    "title": "Tester Opinions",
+    "subtitle": "See what <highlight>our <brTag /> testers</highlight> are saying",
+    "slide1": {
+      "review": "Thanks to this platform, I no longer have to use boring Excel sheets to manage my clients. I have everything under control, and my clients book their appointments themselves. I've saved so much time!"
+    },
+    "slide2": {
+      "review": "Fit.Expert has transformed the way I manage my work! Instead of wasting time entering data in Excel, I now have everything in one convenient place. Clients book their sessions on their own, and I can focus on what really matters."
+    }
+  },
+  "faq": {
+    "title": "FAQ",
+    "subtitle": "Still have <brTag /> some <highlight>questions?</highlight>",
+    "description": "Find clear answers to the basic questions and don’t wait too long — just join our testers and see how simple it all is!",
+    "item1": {
+      "title": "Is fit.expert free?",
+      "description": "Yes! Currently, all our Testers have free access to all beta app features."
+    },
+    "sliderContent": [
+      {
+        "title": "Is fit.expert free?",
+        "description": "Yes! Currently, all our Testers have free access to all beta app features."
+      },
+      {
+        "title": "Do I have to use online payments?",
+        "description": "No, you don’t have to. Our system gives you full flexibility — you can accept payments in cash, by bank transfer, or use our online payment integration if you want to simplify your financial management."
+      },
+      {
+        "title": "Can my clients use my profile and book training sessions?",
+        "description": "Yes, absolutely. Your profile with availability will be visible after clicking the link that you can share on your social media (e.g., Instagram, Facebook, TikTok) or send directly to clients. The client doesn’t need to register — just click and book an available slot."
+      },
+      {
+        "title": "What does the booking process look like for the client?",
+        "description": "The client clicks the link to your calendar, chooses a suitable time, and confirms the booking. You receive a notification and can manage all appointments from one place."
+      },
+      {
+        "title": "Do I need to have my own website?",
+        "description": "No. Your profile in our app works like a mini-website — you can share the link, and clients will see your schedule, contact details, and offers. It’s a perfect solution if you don’t have your own website yet."
+      },
+      {
+        "title": "Can I set my own working hours and days off?",
+        "description": "Yes. You have full control over your calendar. You can set hourly availability, days off, and block dates for vacations or other commitments."
+      }
+    ]
+  },
+  "joinTester": {
+    "title": "Join our testers <highlight>for free</highlight>",
+    "description": "By clicking the <highlight><quote />Join Testers<quote /></highlight> button, you’ll join a group of people with full access to our app <highlight>completely free of charge.</highlight> Additionally, you’ll stay in close contact with our team, having a real impact on the app’s development.",
+    "buttonText": "Join testers"
+  },
+  "footer": {
+    "buttonText": "Join testers",
+    "copyright": "© 2025 Fit.Expert. All rights reserved.",
+    "link": "Privacy Policy"
+  }
+}
