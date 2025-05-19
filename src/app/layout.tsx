@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 
-export default function RootLayout({ children }: { children: ReactNode }) {
+export default function RootLayoutWrapper({ children }: { children: ReactNode }) {
     return (
         <html>
             <head>
