@@ -1,43 +1,44 @@
 "use client";
 
-import { useTranslation } from "react-i18next";
-import i18n from "@/i18n";
+import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 
 export default function LanguageSwitcher() {
-  const { t } = useTranslation();
-  const [lang, setLang] = useState<'PL' | 'EN'>('PL')
-  const [isOpen, setIsOpen] = useState(false)
-  const dropdownRef = useRef<HTMLDivElement>(null)
+  const router = useRouter();
+  const pathname = usePathname();
+  const dropdownRef = useRef<HTMLDivElement>(null);
+  const [isOpen, setIsOpen] = useState(false);
+
+  const currentLocale = pathname?.split("/")[1]?.toUpperCase() === "EN" ? "EN" : "PL";
+  const [lang, setLang] = useState<"PL" | "EN">(currentLocale);
 
   useEffect(() => {
     const onClick = (e: MouseEvent) => {
       if (dropdownRef.current && !dropdownRef.current.contains(e.target as Node)) {
-        setIsOpen(false)
+        setIsOpen(false);
       }
-    }
-    document.addEventListener('mousedown', onClick)
+    };
+    document.addEventListener("mousedown", onClick);
+    return () => document.removeEventListener("mousedown", onClick);
+  }, []);
 
-    return () => {
-      document.removeEventListener('mousedown', onClick)
-    }
-  }, [])
+  useEffect(() => {
+    setLang(currentLocale);
+  }, [currentLocale]);
 
-  const handleLang = (lang: string) => {
-    if (lang === 'EN') {
-      i18n.changeLanguage("en")
-    } else {
-      i18n.changeLanguage("pl")
-    }
-    setLang(lang as 'PL' | 'EN')
-    setIsOpen(false)
-  }
+  const switchLocale = (newLocale: "PL" | "EN") => {
+    const segments = pathname.split("/");
+    segments[1] = newLocale.toLowerCase();
+    const newPath = segments.join("/") || `/${newLocale.toLowerCase()}`;
+    window.location.href = newPath;
+  };
+
 
   return (
     <div>
       <div ref={dropdownRef} className="relative mr-[26px] max-[650px]:mr-[18px]">
         <button
-          onClick={() => setIsOpen(o => !o)}
+          onClick={() => setIsOpen((o) => !o)}
           aria-haspopup="menu"
           aria-expanded={isOpen}
           className="flex items-center font-bold transition"
@@ -46,16 +47,16 @@ export default function LanguageSwitcher() {
           <img
             src="/icons/arrow-down-black.svg"
             alt=""
-            className={`w-3 transition-transform ${isOpen ? 'rotate-180' : ''}`}
+            className={`w-3 transition-transform ${isOpen ? "rotate-180" : ""}`}
           />
         </button>
 
         {isOpen && (
           <ul className="absolute left-0 mt-2 w-20 bg-white border border-gray-200 rounded-lg shadow-lg overflow-hidden z-20">
-            {['PL', 'EN'].map((code) => (
+            {(["PL", "EN"] as const).map((code) => (
               <li key={code}>
                 <button
-                  onClick={() => handleLang(code)}
+                  onClick={() => switchLocale(code)}
                   className="w-full text-left px-4 py-2 text-sm hover:bg-gray-100 transition"
                 >
                   {code}

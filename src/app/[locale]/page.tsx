@@ -1,5 +1,5 @@
 "use client"
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import BusinessCard from "@/components/animated/BusinessCard";
 import RevealOnScroll from "@/components/animated/RevealOnScroll";
@@ -15,9 +15,14 @@ import { Trans, useTranslation } from 'react-i18next';
 export default function Home() {
   const [showVideoModal, setShowVideoModal] = useState(false);
   const { t } = useTranslation("common");
-  const data = (t('faq.sliderContent', { returnObjects: true }) as { title: string, description: string }[]).map((value, idx) => {
-    return { question: value.title, answer: value.description }
-  })
+
+  const data = (t('faq.sliderContent', { returnObjects: true }) as {
+    title: string;
+    description: string;
+  }[]).map(({ title, description }) => ({
+    question: title,
+    answer: description,
+  }));
 
 
 
@@ -58,14 +63,14 @@ export default function Home() {
               </p>
               <div className="reveal flex items-center">
                 <a href="https://tally.so/r/mYeEoz" target="_blank" rel="noopener noreferrer" className="mr-[34px] max-[1050px]:mr-[14px] max-[650px]:mr-2">
-                  <button className="py-2 px-2.5 pl-8 bg-[#C7E410] rounded-full text-lg font-bold flex items-center justify-center group max-[1050px]:pl-[14px] max-[650px]:p-[7px] max-[650px]:pl-5 max-[650px]:text-sm max-[390px]:text-xs">
-                    <span className="mr-2.5 max-[390px]:mr-1">{t('hero.joinTesters')}</span>
-                    <span className="size-[51px] rounded-full bg-black flex items-center justify-center duration-300 group-hover:bg-white max-[650px]:size-[42px] max-[390px]:size-9">
+                  <button className="py-2 px-2.5 pl-8 bg-[#C7E410] rounded-full text-lg font-bold flex items-center justify-center group max-[1050px]:pl-[14px] max-[650px]:p-[7px] max-[650px]:pl-5 max-[650px]:text-sm max-[400px]:text-xs">
+                    <span className="mr-2.5 max-[400px]:mr-1">{t('hero.joinTesters')}</span>
+                    <span className="size-[51px] rounded-full bg-black flex items-center justify-center duration-300 group-hover:bg-white max-[650px]:size-[42px] max-[400px]:size-9">
                       <img src="/icons/arrow-right-white.svg" alt="" className="w-[22px] duration-300 invert-0 group-hover:invert" />
                     </span>
                   </button>
                 </a>
-                <a href="#instruction" className="text-lg font-bold max-[650px]:text-sm text-start max-[390px]:text-xs">
+                <a href="#instruction" className="text-lg font-bold max-[650px]:text-sm text-start max-[400px]:text-xs">
                   {t('hero.seeHowItWorks')}
                 </a>
               </div>
